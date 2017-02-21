@@ -1,0 +1,45 @@
+--------------------------------------------------------------
+Task 1: get_word (total 7/7 points)
+--------------------------------------------------------------
+
+Step 1: Malloc space for array to be returned (1/1 point)
+
+Step 2: Find the word in the list pointed to by head (2/2 points)
+
+Step 3: Create an entry in the return array for each file with non-zero frequency (3/3 points)
+
+Step 4: Create correct sentinel (last entry with frequency zero) (1/1 point)
+
+
+--------------------------------------------------------------
+Task 2: run_worker (total 12/12 points)
+--------------------------------------------------------------
+
+Step 1: Load the index found in dirname using the read_list helper function (3/3 points)
+
+Step 2: Read a word from file descriptor 'in' (2/2 points)
+
+Step 3: Use get_word to look up the word in index (1/1 point)
+
+Step 4: Write out the frequency records one by one to filedescriptor 'out' (2/2 points)
+
+--------------------------------------------------------------
+
+Test 1 (1/1 point): ./queryone -d /cmshome/schroe14/public/marking-a3/solo/ with search term 'onlyinfileone'
+
+Test 2 (1/1 point): ./queryone -d /cmshome/schroe14/public/marking-a3/solo/ with search term 'onlyinfiletwo'
+
+Test 3 (1/1 point): ./queryone -d /cmshome/schroe14/public/marking-a3/solo/ with search term 'inbothfilethreeandfiletwo'
+
+Test 4 (1/1 point): ./queryone -d /cmshome/schroe14/public/marking-a3/solo/ with search term 'inallfiles'
+
+
+--------------------------------------------------------------
+Task 3: query (BONUS 6 points)
+--------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+-1 POINT: compilation warnings
+---------------------------------------------------------------------------------------------------------
+TOTAL: 24/25
